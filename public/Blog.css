@@ -1,0 +1,129 @@
+
+/* General Styles */
+.nav-bar {
+  background-color: #FF7F50;
+    padding: 0.50em;
+}
+
+/* Add these styles to your existing CSS file */
+
+/* Home Button */
+.home-button {
+  display: inline-block;
+  background-color: #e27640; /* You can change this to any color you prefer */
+  color: #f2efef;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 1.em;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #f8ca55; /* Darker shade for hover */
+}
+
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-name {
+  font-size: 1.5em;
+  color:#f2efef;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.2em;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 0.5em 1em;
+}
+
+.nav-list li a:hover {
+  background-color: #ebc53c;
+  transition: background-color 0.3s ease;
+}
+
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: #d0d0d0;
+  }
+
+  .nav-list li {
+    padding: 10px;
+  }
+
+  .nav-list li a {
+    color: rgb(18, 17, 14);
+    text-decoration: none;
+  }
+
+  .nav-list.show {
+    display: flex;
+  }
+}
+
+
+  
+  /* Style the main content */
+  main {
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;
+  }
+  
+  .blog-post {
+    margin-bottom: 20px;
+  }
+  
+  .blog-post h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post .date {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,171 @@
+/* General Styles */
+.nav-bar {
+    background-color: #e27640;
+    padding: 1.0em;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .company-name {
+    font-size: 1.5em;
+    color: #f2efef;
+  }
+  
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.2em;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5em 1em;
+  }
+  
+  .nav-list li a:hover {
+    background-color: #ebc53c;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Intro Section */
+  #intro {
+    display: flex;
+    align-items: flex-start;
+    background-color: #ebc53c;
+    padding: 20px;
+  }
+  
+  .intro-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .intro-image {
+    flex-basis: 600px;
+  }
+  
+  .intro-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1%;
+  }
+
+  /* Existing CSS */
+
+/* Add this media query at the end of your CSS file */
+@media (max-width: 768px) { /* You can adjust the breakpoint as needed */
+    #intro {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .intro-content,
+    .intro-image {
+      flex-basis: auto; /* Reset to default */
+      width: 100%; /* Take up the full width */
+    }
+  
+    .intro-content {
+      padding-right: 0; /* Remove padding */
+      text-align: left; /* Align text to the left */
+    }
+  }
+  
+
+  /* Main Content */
+  main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Headings */
+  h1, h2 {
+    margin-bottom: 40px;
+  }
+  
+  h1 {
+    color: #200b0b;
+    font-size: 2em;
+  }
+  
+  h2 {
+    color: #0d0c0c;
+    font-size:medium;
+    font-family:sans-serif;
+  }
+  
+  /* Paragraphs */
+  p {
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  /* Lists */
+  ul {
+    list-style: disc inside;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styles */
+  #eligibilityForm {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 2em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+  }
+  
+  input[type="number"],
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .required {
+    color: red;
+  }
+  

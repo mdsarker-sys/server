@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation Bar */
+ /* General Styles */
+.nav-bar {
+    background-color: #e27640;
+      padding: 0.50em;
+  }
+  
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .company-name {
+    font-size: 1.5em;
+    color:#f2efef;
+  }
+  
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.2em;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0.5em 1em;
+  }
+  
+  .nav-list li a:hover {
+    background-color: #ebc53c;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  /* Main Content */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Legal Intro Section */
+  #legalIntro {
+    margin-bottom: 20px;
+  }
+  
+  #legalIntro h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Legal Services Section */
+  #legalServices h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  #legalServices ul {
+    list-style: disc inside;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Us Section */
+  #contactUs h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  #contactUs a {
+    color: blue;
+    text-decoration: none;
+  }
+  
